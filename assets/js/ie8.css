@@ -1,0 +1,172 @@
+article.box_four {
+	padding: 25px 0 0 0;
+	float: left;
+	border: none !important;
+	height: 200px !important;
+	width: 50% !important;
+}
+
+article.box_four:hover {
+	background: #f5f5f5 !important;
+}
+
+article.box_four:first-child:hover {
+	background: #f5f5f5 !important;
+}
+
+header {
+	border-bottom: 1px solid #f5f5f5;
+}
+
+.about_lower .imagemarginbottom {
+	margin-bottom: -6px;	
+}
+
+body.home .container {
+	float: left;
+	width: 100%;
+	max-width: 100%;
+	display: block;
+}
+
+body.home header .container {
+	float: none;
+	width: 100%;
+	max-width: 1200px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+body.post-type-archive-work header .container {
+	float: none;
+	width: 100%;
+	max-width: 1200px;
+	display: block;
+	margin: 0 auto;
+}
+
+.overlay {
+	display: none;
+}
+
+
+
+#services_single {
+	background: #fff;
+}
+
+#services_single_lower {
+	background: #fff;
+}
+
+.box_four {
+	width: 50% !important;
+	height: auto !important;
+	border: none;
+}
+
+#single_blog {
+background: #fff;
+}
+.mobile_work {
+	display: block;
+}
+
+
+
+ul.social_links li.website a {
+	margin-right: 0;
+}
+
+ul.social_links li.website {
+	margin-right: 0;
+}
+
+form#mc-embedded-subscribe-form-three input[type=email] {
+
+background: #f0f0f0;
+
+}
+
+
+body.single ul.social_links  {
+	width: 150px;
+	margin-left: 20px;
+}
+
+#related .single_related {
+float: left;
+width: 48%;
+margin: 0 1%;
+}
+
+#related .single_related:first-child {
+float: left;
+width: 48%;
+margin: 0 1%;
+}
+
+.single-services  .box_white {
+	background: #f0f0f0;
+}
+
+.single-services  .bottom_testimonial {
+	background: #f0f0f0;
+}
+
+#blog_roll {
+background: #fff;
+}
+
+footer.post_footer {
+background: #f0f0f0;
+margin-top: -6px;
+}
+
+#blog_roll .custom3 {
+	margin: 0 1% 30px 1%;
+	width: 23%;
+	
+}
+
+.post_footer {
+	min-height: 125px;
+}
+
+#blog_roll .custom3:first-child {
+	margin: 0 1% 30px 1%;
+	width: 23%;
+}
+
+body.page-template-contact-php .grey_spacer {
+	background: none;
+}
+
+.single-post #single_blog .main_col {
+	width: 788px !important;
+	max-width: 788px !important;
+}
+
+article.post img {
+	width: 788px !important;.
+	max-width: 788px !important;.
+}
+
+#related img {
+	max-width: 378px !important;
+	width: 378px !important;
+}
+
+.pinterest-btn {
+	display: none !important;
+}
+
+#contact_page form#form8 .half_form input {
+	background: #f0f0f0;
+}
+
+#contact_page form#form8 textarea {
+	background: #f0f0f0;
+}
