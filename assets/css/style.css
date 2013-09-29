@@ -19,6 +19,7 @@ button#headerToggleNav {
 	top: 0;
 	width: 306px;
 	z-index: 9999;
+	display: none;
 }
 
 .main-nav button {
@@ -328,8 +329,8 @@ ol.sombrero-nav li:last-child{margin-right:0;}
 .information h1{color:#fff;font-size:50px;text-shadow:0 1px 1px #555;margin-bottom:40px;}
 .information h2{color:#fff;text-shadow:0 1px 1px #555;max-width:480px;margin-bottom:55px;}
 .information .button a{color:#fff;}
-.slides .slide:first-child .information h2{color:#444;font-weight:400;display:block;text-shadow:none;}
-.slides .slide:first-child .button a{color:#444;text-shadow:none;border:1px solid #444;box-shadow:none;}
+.slides .slide:first-child .information h2{color:white;font-weight:400;display:block;text-shadow:1px 1px 1px #222;}
+.slides .slide:first-child .button a{color:white;text-shadow:none;border:1px solid white;box-shadow:none;}
 .slides .slide:nth-child(4) .information h1{color:#444;text-shadow:none;max-width:350px;}
 .slides .slide:nth-child(4) .information h2{color:#444;text-shadow:none;font-weight:400;max-width:350px;}
 .slides .slide:nth-child(6) .information h2{color:#444;text-shadow:none;font-weight:400;max-width:500px;margin-bottom:40px;}
@@ -375,7 +376,7 @@ form#mc-embedded-subscribe-form-three,form#form8,ul.careers{float:left;width:100
 #slider,body{margin:0;padding:0;}
 #slider .slides,#slider .slide{width:100%;display:block;}
 html[xmlns] .slides,.no-js .slides > li:first-child,.sticky-wrapper,body.postid-197 #fifty_video{display:block;}
-.slides .slide:first-child .information h1,.slides .slide:nth-child(6) .information h1{color:#444;text-shadow:none;}
+.slides .slide:first-child .information h1,.slides .slide:nth-child(6) .information h1{color:white;text-shadow:1px 1px 1px #222;}
 .slides .slide:nth-child(4) .button a,.slides .slide:nth-child(6) .button a{color:#444;border:1px solid #444;text-shadow:none;box-shadow:none;}
 .prev_service,.next_service{float:left;width:25%;min-width:25%;}
 .current_service h1,.current_service p{text-align:center;}
