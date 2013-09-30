@@ -22,6 +22,17 @@ button#headerToggleNav {
 	display: none;
 }
 
+.main-nav.open {
+	display: block;
+}
+
+.main-container {
+	margin-left: 0;
+}
+.nav-open.main-container {
+	margin-left: -306px;
+}
+
 .main-nav button {
 	color: #859297;
 	padding: 15px;
@@ -137,7 +148,7 @@ div.menu-header-menu-container ul#menu-header-menu li:last-child a{margin-right:
 #about blockquote{font-size:30px;line-height:40px;font-weight:100;width:98%;border-left:7px solid #409F89;padding:0 0 0 2%;}
 .about_lower h2{font-size:16px;text-transform:uppercase;color:#888;text-shadow:none;font-weight:400;margin-bottom:25px;letter-spacing:2px;}
 .about_lower p{color:#444;margin-bottom:40px;}
-.btn a{font-family:proxima-nova,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:14px;text-transform:uppercase;letter-spacing:2.2px;background:#409F89;color:#fff;-webkit-box-shadow:inset 0 -2px rgba(0,0,0,0.1);-moz-box-shadow:inset 0 -2px rgba(0,0,0,0.1);box-shadow:inset 0 -2px rgba(0,0,0,0.1);-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;font-weight:600;padding:15px 30px;}
+.btn a{font-family:proxima-nova,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:14px;text-transform:uppercase;letter-spacing:2.2px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;font-weight:600;padding:15px 30px;}
 .btn a:hover{background:#47ad95;color:#fff;}
 .btn a:active{-webkit-box-shadow:inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);-moz-box-shadow:inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);box-shadow:inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);background:#3a927e;}
 .about_padding{padding-top:90px;}
