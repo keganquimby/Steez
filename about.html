@@ -15,16 +15,11 @@
     <!--[if IE ]>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <![endif]-->
-
-        
+   
     <meta name="format-detection" content="telephone=no">
     
     <title>About | Steez Web Design</title>
 
-    
-
-        
-    
     <!--
     <meta name="Copyright" content="Copyright &copy; Steez Web Design 2013. All Rights Reserved.">
     -->
@@ -35,9 +30,6 @@
     initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
     maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width
     --> 
-    
-
-
     
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -89,14 +81,32 @@
 <script type='text/javascript' src='assets/js/jquery/jquery-migrate.min.js'></script>
 <script type='text/javascript' src='assets/js/comment-reply.min.js'></script>
 
+<script type='text/javascript' src='assets/js/menu.js'></script>
+
 </head>
-
-
-
-
 <body class="archive post-type-archive post-type-archive-work">
+<div class="main-nav text-size-6" id="mainNav"> 
+    <nav role="navigation"> 
+        <ul class="main-nav-tier1"> 
+            <li><div id="logo"><a href="#">steez<span class="green">.</span></a></div>
+                <ul class="main-nav-tier2"> 
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a class="current" href="about.html">About</a></li> 
+                    <li><a href="services.html">Services</a></li> 
+                    <li><a href="work.html">Portfolio</a></li> 
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                </ul> 
+            </li> 
+            <li class="first footer">Copyright &copy; 2013. All rights reserved.</li>
+            <li class="footer">Crafted in San Francisco, CA</li>
+        </ul> 
+    </nav> 
+    <button id="navCloseBtn" class="icon-remove" title="Close navigation"></button> 
+</div><!-- END main-nav -->
+<div class="main-container">
 
-	 <header class="wrapper  navbar-wrapper">
+    <header class="wrapper  navbar-wrapper">
         <section class="container">
             <nav class="row-fluid">
                 <div class="span2">
@@ -105,16 +115,16 @@
                 <div class="span10">
                     <div class="menu-header-menu-container">
                 <ul id="menu-header-menu" class="menu">
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">Menu</a></li>
-                    <!--<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">Blog</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Services</a></li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">About</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Work</a></li>-->
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                        <button id="headerToggleNav">
+                            <span class="main-header-menu-text">Menu</span>
+                        </button>
+                    </li>
                 </ul>
                </div>               
              </div>
             </nav>
-        <section>
+        </section>
     </header>
     
     <header class="mobile">
@@ -131,8 +141,8 @@
                   </ul>
                 </div>         
             </nav>
-            <div id="openclosemenubtn" class="btn"><a href="#">³</a></div>
-        <section>
+            <div id="openclosemenubtn" class="btn"><a href="#"><img src="assets/img/icon-menu.png" /></a></div>
+        </section>
     </header>
 
 <section class="wrapper grey_spacer" id="about">
@@ -240,7 +250,7 @@
     <section class="container">
         <div class="row-fluid" id="">
             <div class="span5 offset1" id="about_form">
-                <h1>Your idea matters</h1>
+                <h1>Tell us about your project</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua - call us on <strong><a title="Click to Call" href="call:#">(999) 999-9999</a></strong> or <strong>fill out the form below</strong> and we’ll get back to you within 24 hours.</p>
                 
                 <form id="form8" name="form8" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
@@ -318,39 +328,9 @@
                             <blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et aborum."</blockquote>
                         </div>
                     </div>
+
                     
-                    <div class="testimonial">
-                        <div class="top_testimonial">
-                            <a target="_blank" href="http://www.linkedin.com/"><img src="assets/img/colin-metcalf1.png"/></a>
-                            <h2><a target="_blank" href="http://www.linkedin.com/">John C Smith</a></h2>
-                            <h3><a target="_blank" href="http://www.linkedin.com/">Company Name</a></h3>
-                        </div>
-                        <div class="bottom_testimonial">
-                            <blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labo<br><br>ate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</blockquote>
-                        </div>
-                    </div>
-                    
-                    <div class="testimonial">
-                        <div class="top_testimonial">
-                            <a target="_blank" href="http://www.linkedin.com/"><img src="assets/img/colin-metcalf1.png"/></a>
-                            <h2><a target="_blank" href="http://www.linkedin.com/">John D Smith</a></h2>
-                            <h3><a target="_blank" href="http://www.linkedin.com/">Company Name</a></h3>
-                        </div>
-                        <div class="bottom_testimonial">
-                            <blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <br><br>ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat c<br><br>pa qui officia deserunt mollit anim id est laborum."</blockquote>
-                        </div>
-                    </div>
-                    
-                    <div class="testimonial">
-                        <div class="top_testimonial">
-                            <a target="_blank" href="http://www.linkedin.com/"><img src="assets/img/colin-metcalf1.png"/></a>
-                            <h2><a target="_blank" href="http://www.linkedin.com/">John E Smith</a></h2>
-                            <h3><a target="_blank" href="http://www.linkedin.com/">Company Name</a></h3>
-                        </div>
-                        <div class="bottom_testimonial">
-                            <blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamc<br><br>id est laborum."</blockquote>
-                        </div>
-                    </div>
+
                         <script type="text/javascript">
     // <![CDATA[
         var disqus_shortname = 'steez';
@@ -377,6 +357,7 @@
         </div>
     </section>
 </section>
+</div><!-- END main-conatiner -->
 
 <script src="http://dylandgeorge.com/steez/assets/js/jquery.royalslider.min.js"></script>
 
@@ -447,13 +428,6 @@ jQuery(document).ready(function($) {
         $(".sticky_cont").sticky({topSpacing:100}); 
         
     });   
-</script>
-    <!-- Insert Google Analytics here -->
-<script type="text/javascript">
-setTimeout(function(){var a=document.createElement("script");
-var b=document.getElementsByTagName("script")[0];
-a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0014/2887.js?"+Math.floor(new Date().getTime()/3600000);
-a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 </script>
 
 </body>

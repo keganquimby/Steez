@@ -90,7 +90,26 @@
 </head>
 
 <body class="home page page-id-2 page-template">
-<div class="main-nav text-size-6" id="mainNav"> <nav role="navigation"> <ul class="main-nav-tier1"> <li> <strong class="main-nav-tier1-headline"> Code42 </strong> <ul class="main-nav-tier2"> <li> <a class="main-nav-current" href="/">Home</a> </li> <li> <a href="/about/">About Us</a> </li> <li> <a href="/careers/">Careers</a> </li> <li> <a href="/community/">Community</a> </li> <li> <a href="//www.crashplan.com/blog/">Blog</a> </li> </ul> </li> <li> <strong class="main-nav-tier1-headline"> Products </strong> <ul class="main-nav-tier2"> <li> <a href="//www.crashplan.com/">CrashPlan for Home</a> </li> <li> <a href="//www.crashplan.com/business/">CrashPlan for Business</a> </li> <li> <a href="//www.crashplan.com/enterprise/">CrashPlan for Enterprise</a> </li> </ul> </li> </ul> </nav> <button id="navCloseBtn" class="icon-remove" title="Close navigation"></button> </div>
+
+<div class="main-nav text-size-6" id="mainNav"> 
+    <nav role="navigation"> 
+        <ul class="main-nav-tier1"> 
+            <li><div id="logo"><a href="#">steez<span class="green">.</span></a></div>
+                <ul class="main-nav-tier2"> 
+                    <li><a class="current" href="/">Home</a></li> 
+                    <li><a href="about.html">About</a></li> 
+                    <li><a href="services.html">Services</a></li> 
+                    <li><a href="work.html">Portfolio</a></li> 
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                </ul> 
+            </li> 
+            <li class="first footer">Copyright &copy; 2013. All rights reserved.</li>
+            <li class="footer">Crafted in San Francisco, CA</li>
+        </ul> 
+    </nav> 
+    <button id="navCloseBtn" class="icon-remove" title="Close navigation"></button> 
+</div><!-- END main-nav -->
 <div class="main-container">
     <header class="wrapper  navbar-wrapper">
         <section class="container">
@@ -133,14 +152,13 @@
 
 <div id="slider">
 
-    <div class="sombrero-viewport clearfix">
 
         <div class="slides">       
         
                         
                             
                             
-                <div class="slide" src="" data-image="assets/img/macbook-air.jpg" style="background-image: url(/assets/img/macbook-air.jpg); background-size: cover; display: block; background-position: 50% 50%;">
+                <div class="slide" data-image="assets/img/macbook-air.jpg" style="background-image: url(/assets/img/macbook-air.jpg); background-size: cover; display: block; background-position: 50% 50%;">
                     <div class="wrapper">
                         <div class="information easybring">
                             <h1>Simple &amp; Elegant</h1>
@@ -152,7 +170,7 @@
                             
                             
                            
-                <div class="slide" src="" data-image="assets/img/record.jpg" style="background-image: url(assets/img/record.jpg); background-size: cover; display: block; background-position: 50% 50%;">
+                <div class="slide" data-image="assets/img/record.jpg" style="background-image: url(assets/img/record.jpg); background-size: cover; display: block; background-position: 50% 50%;">
                     <div class="wrapper">
                         <div class="information easybring">
                             <h1 style="color: black;">Don't Just Scratch the Surface</h1>
@@ -164,7 +182,7 @@
                             
                             
                             
-                <div class="slide" src="" data-image="assets/img/organized.jpg" style="background-image: url(assets/img/organized.jpg); background-size: cover; display: block; background-position: 50% 50%;">
+                <div class="slide" data-image="assets/img/organized.jpg" style="background-image: url(assets/img/organized.jpg); background-size: cover; display: block; background-position: 50% 50%;">
                     <div class="wrapper">
                         <div class="information easybring">
                             <h1>Stay Organzied</h1>
@@ -175,11 +193,12 @@
                 </div>
                           
                     
-        </div>
+        </div><!-- END slides -->
+          
 
-    </div>            
+</div><!-- END slider -->
 
-</div>
+</div><!-- END main container -->
 
 <script src="assets/js/foundation.min.js"></script>
 <script src="assets/js/foundation.interchange.js"></script>
