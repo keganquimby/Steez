@@ -19,11 +19,7 @@ button#headerToggleNav {
 	top: 0;
 	width: 306px;
 	z-index: 9999;
-	display: none;
-}
-
-.main-nav.open {
-	display: block;
+	margin: 0 -400px 0 0;
 }
 
 .main-container {
