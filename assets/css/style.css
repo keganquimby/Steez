@@ -55,11 +55,13 @@ button#headerToggleNav {
 }
 
 .main-nav button {
-	color: #859297;
-	padding: 15px;
+	background-color: #222;
+	padding: 7px;
 	position: absolute;
-	right: 0;
-	top: 0;
+	right: 15px;
+	top: 15px;
+	border: none;
+	cursor: pointer;
 }
 
 header.wrapper {
@@ -164,14 +166,14 @@ div.menu-header-menu-container ul#menu-header-menu li:last-child a{margin-right:
 .work_spacer_large span img{border-bottom:1px solid #bebebe;}
 .grey_spacer{background:#f0f0f0;padding:100px 0;}
 .spacer{border-bottom:1px solid #bebebe;padding:100px 0 0;}
-#about{padding:170px 0 100px;}
+#about{padding:140px 0 90px;}
 #about h1,#about p,#about blockquote{text-align:center;}
 #about h2{font-size:16px;text-transform:uppercase;color:#888;text-shadow:none;font-weight:400;text-align:center;margin-bottom:25px;letter-spacing:2px;}
 #about blockquote{font-size:30px;line-height:40px;font-weight:100;width:98%;border-left:7px solid #409F89;padding:0 0 0 2%;}
 .about_lower h2{font-size:16px;text-transform:uppercase;color:#888;text-shadow:none;font-weight:400;margin-bottom:25px;letter-spacing:2px;}
 .about_lower p{color:#444;margin-bottom:40px;}
 .btn a{font-family:proxima-nova,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:14px;text-transform:uppercase;letter-spacing:2.2px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;font-weight:600;padding:15px 30px;}
-.btn a:hover{background:#47ad95;color:#fff;}
+.btn a:hover{/*background:#47ad95;color:#fff;*/}
 .btn a:active{-webkit-box-shadow:inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);-moz-box-shadow:inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);box-shadow:inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);background:#3a927e;}
 .about_padding{padding-top:90px;}
 .about_lower_two .about_padding{padding-top:110px;}
@@ -202,6 +204,7 @@ ul#services{margin:60px 0 -5px;}
 ul#services li{-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
 ul#services li h1,ul#services li p{-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;opacity:0;}
 .wrapper,.btn{float:left;width:100%;display:block;}
+.btn {width: auto!important;}
 [class*=span].pull-right,.row-fluid [class*=span].pull-right,div.menu-header-menu-container ul#menu-header-menu li{float:right;}
 body,p{color:#444;font:16px proxima-nova,sans-serif;font-style:normal;font-weight:400;line-height:24px;}
 a:hover,a:focus,.entry li a:hover,.entry p a:hover,.green,ul#services li.next:hover .dot{color:#409F89;}
