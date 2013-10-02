@@ -89,6 +89,8 @@
 <script type='text/javascript' src='assets/js/jquery/jquery-migrate.min.js'></script>
 <script type='text/javascript' src='assets/js/comment-reply.min.js'></script>
 
+<script type='text/javascript' src='assets/js/menu.js'></script>
+
 </head>
 
 
@@ -96,7 +98,27 @@
 
 <body class="archive post-type-archive post-type-archive-work">
 
-     <header class="wrapper  navbar-wrapper">
+<div class="main-nav text-size-6" id="mainNav"> 
+    <nav role="navigation"> 
+        <ul class="main-nav-tier1"> 
+            <li><div id="logo"><a href="#">steez<span class="green">.</span></a></div>
+                <ul class="main-nav-tier2"> 
+                    <li><a href="/">Home</a></li> 
+                    <li><a href="about.html">About</a></li> 
+                    <li><a href="services.html">Services</a></li> 
+                    <li><a href="work.html">Portfolio</a></li> 
+                    <li><a class="current" href="blog.html">Blog</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                </ul> 
+            </li> 
+            <li class="first footer">Copyright &copy; 2013. All rights reserved.</li>
+            <li class="footer">Crafted in San Francisco, CA</li>
+        </ul> 
+    </nav> 
+    <button id="navCloseBtn" class="icon-remove icon-white" title="Close navigation"></button> 
+</div><!-- END main-nav -->
+<div class="main-container">
+    <header class="wrapper  navbar-wrapper">
         <section class="container">
             <nav class="row-fluid">
                 <div class="span2">
@@ -105,16 +127,16 @@
                 <div class="span10">
                     <div class="menu-header-menu-container">
                 <ul id="menu-header-menu" class="menu">
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">Menu</a></li>
-                    <!--<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">Blog</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Services</a></li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#">About</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#">Work</a></li>-->
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                        <button id="headerToggleNav">
+                            <span class="main-header-menu-text">Menu</span>
+                        </button>
+                    </li>
                 </ul>
                </div>               
              </div>
             </nav>
-        <section>
+        </section>
     </header>
     
     <header class="mobile">
@@ -131,8 +153,8 @@
                   </ul>
                 </div>         
             </nav>
-            <div id="openclosemenubtn" class="btn"><a href="#">³</a></div>
-        <section>
+            <div id="openclosemenubtn" class="btn"><a href="#"><img src="assets/img/icon-menu.png" /></a></div>
+        </section>
     </header>
  
     
@@ -331,38 +353,13 @@
                 </footer>
     
             </article>
-
-
-		
-
-		    <script type="text/javascript">
-    // <![CDATA[
-        var disqus_shortname = 'steez';
-        (function () {
-            var nodes = document.getElementsByTagName('span');
-            for (var i = 0, url; i < nodes.length; i++) {
-                if (nodes[i].className.indexOf('dsq-postid') != -1) {
-                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
-                    url = nodes[i].parentNode.href.split('#', 1);
-                    if (url.length == 1) { url = url[0]; }
-                    else { url = url[1]; }
-                    nodes[i].parentNode.href = url + '#disqus_thread';
-                }
-            }
-            var s = document.createElement('script'); s.async = true;
-            s.type = 'text/javascript';
-            s.src = '//' + 'disqus.com/forums/' + disqus_shortname + '/count.js';
-            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-        }());
-    //]]>
-    </script>
     
         	  
     
             
     	</section>
     </section>
-
+</div>
 <script src="assets/js/foundation.min.js"></script>
 <script src="assets/js/foundation.interchange.js"></script>
 <script src="assets/js/jquery.fitvids.js"></script>
